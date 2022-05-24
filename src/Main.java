@@ -26,5 +26,18 @@ public class Main {
 
         System.out.println("Общий вес двух боксёров " + weightSummary);
         System.out.println("Разница в весе между двумя боксёрами " + weightDifference);
+
+
+        // Третье задание
+
+        short bananas = 5 * 80;
+        short milk = 105 * 2;
+        short iceCream = 100 * 2;
+        short eggs = 70 * 4;
+
+        int summary = bananas + milk + iceCream + eggs;
+        float summaryKilogramm = (float) summary / 1000;
+        System.out.println("Общий вес спорт-завтрака в граммах = " + summary + " гр");
+        System.out.println("Общий вес спорт-завтрака в килограммах = " + summaryKilogramm + " кг");
     }
 }
