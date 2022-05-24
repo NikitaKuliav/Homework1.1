@@ -39,5 +39,22 @@ public class Main {
         float summaryKilogramm = (float) summary / 1000;
         System.out.println("Общий вес спорт-завтрака в граммах = " + summary + " гр");
         System.out.println("Общий вес спорт-завтрака в килограммах = " + summaryKilogramm + " кг");
+
+
+        // Четвертое задание
+
+        int weightLose = 7;
+        int weightLoseGramm = 7 * 1000;
+        int var1 = 250;
+        int var2 = 500;
+
+        int result1 = weightLoseGramm / var1;
+        int result2 = weightLoseGramm / var2;
+
+        int averageResult = (result1 + result2) / 2;
+        System.out.println("Если худеть по 250 грамм в день, то получится " + result1 + " дней");
+        System.out.println("Если худеть по 500 грамм в день, то получится " + result2 + " дней");
+        System.out.println("В среднем получится " + averageResult + " день");
+
     }
 }
