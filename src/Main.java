@@ -15,5 +15,16 @@ public class Main {
 
         boolean learn = true;
 
+
+        // Второе задание
+
+        double weightFirst = 78.2;
+        double weightSecond = 82.7;
+
+        double weightSummary = weightFirst + weightSecond;
+        double weightDifference = Math.abs(weightFirst - weightSecond);
+
+        System.out.println("Общий вес двух боксёров " + weightSummary);
+        System.out.println("Разница в весе между двумя боксёрами " + weightDifference);
     }
 }
