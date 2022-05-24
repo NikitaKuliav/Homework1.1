@@ -56,5 +56,33 @@ public class Main {
         System.out.println("Если худеть по 500 грамм в день, то получится " + result2 + " дней");
         System.out.println("В среднем получится " + averageResult + " день");
 
+
+        // Пятое задание
+
+        int salaryMas = 67760;
+        int salaryDen = 83690;
+        int salaryKrist = 76230;
+
+        double salaryIncrease = 1.10;
+
+        double salaryMasIncrease = salaryMas * salaryIncrease;
+        double salaryDenIncrease = salaryDen * salaryIncrease;
+        double salaryKristIncrease = salaryKrist * salaryIncrease;
+
+        int salaryMasYear = salaryMas * 12;
+        int salaryDenYear = salaryDen * 12;
+        int salaryKristYear = salaryKrist * 12;
+
+        double salaryMasYearIncrease = salaryMasYear * salaryIncrease;
+        double salaryDenYearIncrease = salaryDenYear * salaryIncrease;
+        double salaryKristYearIncrease = salaryKristYear * salaryIncrease;
+
+        double differenceMas = salaryMasYearIncrease - salaryMasYear;
+        double differenceDen = salaryDenYearIncrease - salaryDenYear;
+        double differenceKrist = salaryKristYearIncrease - salaryKristYear;
+
+        System.out.println("Маша теперь получает " + (int)salaryMasIncrease + " рублей. Годовой доход вырос на " + (int)differenceMas);
+        System.out.println("Денис теперь получает " + (int)salaryDenIncrease + " рублей. Годовой доход вырос на " + (int)differenceDen);
+        System.out.println("Кристина теперь получает " + (int)salaryKristIncrease + " рублей. Годовой доход вырос на " + (int)differenceKrist);
     }
 }
